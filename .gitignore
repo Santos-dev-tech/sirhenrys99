@@ -1,0 +1,32 @@
+# puppeteer-core, pulled in only for the local screenshot harness
+tools/node_modules/
+tools/package-lock.json
+tools/package.json
+
+# screenshot output from tools/shoot.js
+_shots/
+
+# scratch copies made while testing the bundler
+_b.html
+_v.html
+_t.html
+_live.html
+_delivered.html
+_standalone-test.html
+
+# OS noise
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Firebase Admin credentials. A service account key is a root credential for the
+# whole project - it bypasses firestore.rules entirely. Never commit one.
+serviceAccount*.json
+*-firebase-adminsdk-*.json
+firebase-debug.log
+.firebase/
+
+# the deck generator pulls pptxgenjs; the .pptx is the deliverable, not its toolchain
+pitch/node_modules/
+pitch/package-lock.json
+pitch/*.pdf

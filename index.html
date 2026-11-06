@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sir Henry's Limited &mdash; Crafted for the Distinguished Gentleman</title>
+<meta name="description" content="Premium menswear and bespoke tailoring in Nairobi since 1967. Suits, shirts, and made-to-measure with free alterations for life.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 fill=%27%23151515%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-family=%27Georgia,serif%27 font-size=%2716%27 font-weight=%27700%27 fill=%27%23846144%27 text-anchor=%27middle%27%3ESH%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+<!-- scoped under .ad, so it cannot reach the storefront - see the head of the file -->
+<link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body>
+<!-- One document, two apps. #shop is the storefront; #ad is the staff console at
+     #/admin. Each router hides the other's subtree, so only one is ever in the
+     accessibility tree or taking clicks. -->
+<div id="shop">
+<div id="progress"></div>
+<div id="veil"></div>
+
+<div class="announce">
+  <ul>
+    <li>Bespoke tailoring, est. 1967</li><li>Complimentary alterations on all suits, for life</li>
+    <li>Free delivery over KSh 20,000</li><li>M-Pesa accepted</li><li>Four stores across Kenya</li>
+    <li>Bespoke tailoring, est. 1967</li><li>Complimentary alterations on all suits, for life</li>
+    <li>Free delivery over KSh 20,000</li><li>M-Pesa accepted</li><li>Four stores across Kenya</li>
+  </ul>
+</div>
+
+<header class="hdr">
+  <div class="wrap hdr-in">
+    <nav class="nav">
+      <a class="navhome" href="#/" aria-label="Home" title="Home">
+        <svg viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9.5V20h13V9.5"/><path d="M9.75 20v-6h4.5v6"/></svg></a>
+      <button class="iconbtn burger" data-menu aria-label="Menu">
+        <svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+      <div class="navitem"><a href="#/shop?cat=suits">Suits</a>
+        <div class="mega">
+          <div><h5>By cut</h5><ul>
+            <li><a href="#/shop?cat=suits&sub=two-piece">Two Piece Suits</a></li>
+            <li><a href="#/shop?cat=suits&sub=three-piece">Three Piece Suits</a></li>
+            <li><a href="#/shop?cat=suits&sub=double-breasted">Double Breasted</a></li>
+            <li><a href="#/shop?cat=suits&sub=tuxedo">Tuxedo</a></li>
+            <li><a href="#/shop?cat=suits&sub=blazers">Blazers</a></li></ul></div>
+          <div><h5>By occasion</h5><ul>
+            <li><a href="#/shop?cat=suits&sub=work">Work Suits</a></li>
+            <li><a href="#/shop?cat=suits&sub=prom">Prom Suits</a></li>
+            <li><a href="#/shop?cat=suits&sub=graduation">Graduation Suits</a></li>
+            <li><a href="#/shop?cat=suits&sub=wool">Wool Suits</a></li>
+            <li><a href="#/shop?cat=suits&sub=linen">Linen Suits</a></li></ul></div>
+          <figure><a href="#/bespoke"><img src="assets/img/ed-fabric.jpg" alt="">
+            <figcaption>Made to Measure &rarr;</figcaption></a></figure>
+        </div></div>
+      <div class="navitem"><a href="#/shop?cat=shirts">Shirts</a>
+        <div class="mega" style="grid-template-columns:1fr 220px;min-width:440px">
+          <div><h5>Shirts</h5><ul>
+            <li><a href="#/shop?cat=shirts&sub=formal">Formal Shirts</a></li>
+            <li><a href="#/shop?cat=shirts&sub=patterned">Patterned</a></li>
+            <li><a href="#/shop?cat=shirts&sub=evening">Evening Shirts</a></li></ul></div>
+          <figure><a href="#/shop?cat=shirts"><img src="assets/img/cat-shirts.jpg" alt="">
+            <figcaption>All shirts &rarr;</figcaption></a></figure>
+        </div></div>
+      <div class="navitem"><a href="#/shop?cat=casual">Casual</a>
+        <div class="mega" style="grid-template-columns:1fr 220px;min-width:440px">
+          <div><h5>Casual</h5><ul>
+            <li><a href="#/shop?cat=casual&sub=polo">Polo Shirts</a></li>
+            <li><a href="#/shop?cat=casual&sub=jackets">Coats &amp; Jackets</a></li>
+            <li><a href="#/shop?cat=casual&sub=chinos">Chinos</a></li>
+            <li><a href="#/shop?cat=casual&sub=smart-casual">Smart Casual</a></li></ul></div>
+          <figure><a href="#/shop?cat=casual"><img src="assets/img/cat-casual.jpg" alt="">
+            <figcaption>All casual &rarr;</figcaption></a></figure>
+        </div></div>
+      <a href="#/shop?cat=accessories">Accessories</a>
+      <a href="#/bespoke">Made to Measure</a>
+      <a href="#/wedding">Weddings</a>
+      <a href="#/lookbook">Lookbook</a>
+    </nav>
+
+    <a class="brand" href="#/">SIR HENRY'S<small>Nairobi &middot; Est. 1967</small></a>
+
+    <div class="hdr-act">
+      <a class="iconbtn" href="#/search" aria-label="Search">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4.3-4.3"/></svg></a>
+      <a class="iconbtn" href="#/stores" aria-label="Stores">
+        <svg viewBox="0 0 24 24"><path d="M12 21s7-5.4 7-11a7 7 0 10-14 0c0 5.6 7 11 7 11z"/><circle cx="12" cy="10" r="2.4"/></svg></a>
+      <a class="iconbtn" href="#/wishlist" aria-label="Wishlist">
+        <svg viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 00-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 000-7.8z"/></svg></a>
+      <a class="signin" href="#/account" data-signin>
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.6"/><path d="M4.5 20a7.5 7.5 0 0115 0"/></svg>
+        <span data-signin-label>Sign in</span></a>
+      <button class="iconbtn" data-opencart aria-label="Bag">
+        <svg viewBox="0 0 24 24"><path d="M6 7h12l1.2 13H4.8zM9 7V5.5a3 3 0 016 0V7"/></svg>
+        <span class="badge" data-cartcount style="display:none">0</span></button>
+    </div>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr-top">
+      <div class="ftr-brand">
+        <b>SIR HENRY'S</b>
+        <p>Premium menswear and bespoke tailoring on Kimathi Street, Nairobi, since 1967. Crafted for the distinguished gentleman.</p>
+        <form class="sub" id="subForm">
+          <input type="email" placeholder="Your email" required aria-label="Email">
+          <button data-magnet="0.2">Join</button>
+        </form>
+      </div>
+      <div><h4>Shop</h4><ul>
+        <li><a href="#/shop?cat=suits">Suits</a></li><li><a href="#/shop?cat=shirts">Shirts</a></li>
+        <li><a href="#/shop?cat=casual">Casual</a></li><li><a href="#/shop?cat=accessories">Accessories</a></li>
+        <li><a href="#/shop?sort=sale">Sale</a></li></ul></div>
+      <div><h4>Services</h4><ul>
+        <li><a href="#/bespoke">Made to Measure</a></li><li><a href="#/wedding">Weddings &amp; Groups</a>
+  <a href="#/corporate">Corporate &amp; Bulk</a></li>
+        <li><a href="#/appointments">Book a Fitting</a></li>
+        <li><a href="#/corporate">Corporate Service</a></li><li><a href="#/about">Charity Programme</a></li>
+        <li><a href="#/contact">Careers</a></li></ul></div>
+      <div><h4>Visit</h4><ul>
+        <li><a href="#/stores">Our Stores</a></li><li><a href="#/about">About Us</a></li>
+        <li><a href="#/contact">Contact</a></li><li><a href="#/admin">Staff Login</a></li></ul></div>
+    </div>
+    <div class="ftr-bot">
+      <span>&copy; 2026 Sir Henry's Limited. Nairobi, Kenya. Tel (+254) 713 619786.</span>
+      <div class="pays"><span>M-PESA</span><span>VISA</span><span>MASTERCARD</span><span>AMEX</span></div>
+    </div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/254713619786" target="_blank" rel="noopener" aria-label="WhatsApp us">
+  <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm5.8 14.2c-.2.7-1.2 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.7-2.1 1-2.4c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .7.5l.9 2.2c.1.2.1.4 0 .6l-.4.5-.3.3c-.1.1-.3.3-.1.6.2.3.8 1.4 1.8 2.2 1.2 1.1 2.2 1.4 2.5 1.6.3.1.5.1.6-.1l.9-1c.2-.2.4-.2.6-.1l2.1 1c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg>
+</a>
+
+<!-- cart drawer -->
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="cartDrawer" aria-label="Shopping bag">
+  <div class="drawer-hd"><b>Your bag</b><button class="x" data-close aria-label="Close">&times;</button></div>
+  <div class="drawer-bd" id="cartBody" data-lenis-prevent></div>
+  <div class="drawer-ft">
+    <div class="tot"><span>Subtotal</span><b id="cartSub">KSh 0.00</b></div>
+    <div class="tot"><span>Delivery</span><b id="cartShip">Free</b></div>
+    <div class="tot big"><span>Total</span><b id="cartTot">KSh 0.00</b></div>
+    <a class="btn wide" href="#/checkout" data-close style="margin-top:14px">Checkout</a>
+    <a class="btn ghost wide" href="#/cart" data-close style="margin-top:8px">View bag</a>
+    <a class="btn wa-btn wide" id="waOrder" style="margin-top:8px" target="_blank" rel="noopener" href="#">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2z"/></svg>
+      Order on WhatsApp</a>
+  </div>
+</aside>
+
+<!-- size finder -->
+<aside class="drawer" id="fitModal" aria-label="Find my size">
+  <div class="drawer-hd"><b>Find my size</b><button class="x" data-close aria-label="Close">&times;</button></div>
+  <div class="drawer-bd" data-lenis-prevent>
+    <p class="muted" style="font-size:13px">Two measurements and we will tell you where to start. Alterations are free, so we can take it from there in store.</p>
+    <form id="fitForm">
+      <div class="field"><label>Chest (cm)</label><input name="chest" type="number" min="80" max="140" value="100" required></div>
+      <div class="field"><label>Height (cm)</label><input name="height" type="number" min="150" max="210" value="178" required></div>
+      <div class="field"><label>Fit preference</label><select name="fit">
+        <option>Slim</option><option>Regular</option><option>Relaxed</option></select></div>
+      <button class="btn wide">Calculate my size</button>
+    </form>
+    <div id="fitOut" style="margin-top:26px"></div>
+    <p class="muted" style="font-size:12px;margin-top:22px">Prefer to be measured properly?
+      <a href="#/appointments" data-close style="color:var(--bronze);border-bottom:1px solid">Book a free fitting</a>.</p>
+  </div>
+</aside>
+
+<!-- mobile nav -->
+<nav class="mnav" id="mnav" data-lenis-prevent>
+  <a href="#/shop?cat=suits">Suits</a>
+  <a class="sub-a" href="#/shop?cat=suits&sub=two-piece">Two Piece</a>
+  <a class="sub-a" href="#/shop?cat=suits&sub=three-piece">Three Piece</a>
+  <a class="sub-a" href="#/shop?cat=suits&sub=tuxedo">Tuxedo</a>
+  <a href="#/shop?cat=shirts">Shirts</a>
+  <a href="#/shop?cat=casual">Casual</a>
+  <a href="#/shop?cat=accessories">Accessories</a>
+  <a href="#/bespoke">Made to Measure</a>
+  <a href="#/wedding">Weddings &amp; Groups</a>
+  <a href="#/corporate">Corporate &amp; Bulk</a>
+  <a href="#/lookbook">Lookbook</a>
+  <a href="#/search">Search</a>
+  <a href="#/appointments">Book a Fitting</a>
+  <a href="#/stores">Stores</a>
+  <a href="#/about">About</a>
+  <a href="#/contact">Contact</a>
+</nav>
+</div><!-- /#shop -->
+
+<div id="ad" class="ad" hidden>
+<div class="shell">
+  <aside class="side" data-lenis-prevent>
+    <div class="logo">SIR HENRY'S<small>Staff Console</small></div>
+    <nav>
+      <h6>Overview</h6>
+      <a href="#/admin/dashboard" data-nav="dashboard"><svg viewBox="0 0 24 24"><path d="M3 12h6v9H3zM9 3h6v18H9zM15 8h6v13h-6z"/></svg>Dashboard</a>
+      <a href="#/admin/analytics" data-nav="analytics"><svg viewBox="0 0 24 24"><path d="M3 3v18h18M7 15l4-5 3 3 5-7"/></svg>Analytics</a>
+
+      <h6>Selling</h6>
+      <a href="#/admin/pos" data-nav="pos"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="1"/><path d="M3 9h18M7 21h10"/></svg>Till (POS)</a>
+      <a href="#/admin/orders" data-nav="orders"><svg viewBox="0 0 24 24"><path d="M6 7h12l1.2 13H4.8zM9 7V5.5a3 3 0 016 0V7"/></svg>Orders</a>
+      <a href="#/admin/products" data-nav="products"><svg viewBox="0 0 24 24"><path d="M20.6 7.3L12 2 3.4 7.3 12 12.6zM3.4 7.3v9.4L12 22V12.6M20.6 7.3v9.4L12 22"/></svg>Products</a>
+      <a href="#/admin/inventory" data-nav="inventory"><svg viewBox="0 0 24 24"><path d="M3 4h18v5H3zM3 9v11h18V9M9 13h6"/></svg>Inventory</a>
+      <a href="#/admin/customers" data-nav="customers"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M2.5 20a6.5 6.5 0 0113 0M16 5.2a3.2 3.2 0 010 5.6M18 20a6.5 6.5 0 00-3-5.4"/></svg>Customers</a>
+
+      <h6>Atelier</h6>
+      <a href="#/admin/fittings" data-nav="fittings"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Fittings</a>
+      <a href="#/admin/alterations" data-nav="alterations"><svg viewBox="0 0 24 24"><path d="M6 3v12M18 3v12M6 15a3 3 0 106 0M12 15a3 3 0 106 0"/></svg>Alterations</a>
+      <a href="#/admin/commissions" data-nav="commissions"><svg viewBox="0 0 24 24"><path d="M6 3v12M18 3v12M6 15a3 3 0 106 0M12 15a3 3 0 106 0"/></svg>Made to Measure</a>
+      <a href="#/admin/groups" data-nav="groups"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M2.5 20a6.5 6.5 0 0113 0M16 5.2a3.2 3.2 0 010 5.6M18 20a6.5 6.5 0 00-3-5.4"/></svg>Weddings &amp; Groups</a>
+
+      <a href="#/admin/corporate" data-nav="corporate"><svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/></svg>Corporate &amp; Bulk</a>
+
+      <h6>Configure</h6>
+      <a href="#/admin/settings" data-nav="settings"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>Settings</a>
+      <div id="whoami" class="whoami"></div>
+      <div class="back">
+        <a href="#/"><svg viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>Back to storefront</a>
+      </div>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <button class="btn ghost sm mtoggle" data-mtoggle style="margin-bottom:16px">Menu</button>
+    <div id="view"></div>
+  </main>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="dw" id="dw" aria-label="Order detail" data-lenis-prevent>
+  <div class="dw-hd"><b id="dwTitle">Order</b><button class="x" data-close aria-label="Close">&times;</button></div>
+  <div class="dw-bd" id="dwBody"></div>
+  <div class="dw-ft"><button class="btn" id="dwSave">Save changes</button>
+    <button class="btn ghost" data-close>Close</button></div>
+</aside>
+<!-- The assistant. Lives inside #ad so it is staff-only, and so admin.css reaches it. -->
+<button class="ai-fab" id="aiFab" type="button" aria-label="Ask the shop assistant">
+  <svg viewBox="0 0 24 24"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg>
+  <span>Ask</span></button>
+
+<aside class="ai" id="aiPanel" aria-label="Shop assistant" data-lenis-prevent hidden>
+  <div class="ai-hd">
+    <b>Shop assistant</b>
+    <span class="ai-state" id="aiState">starting</span>
+    <button class="x" id="aiClose" aria-label="Close">&times;</button>
+  </div>
+  <div class="ai-log" id="aiLog"></div>
+  <div class="ai-sugg" id="aiSugg"></div>
+  <form class="ai-ask" id="aiForm">
+    <input id="aiInput" type="text" autocomplete="off"
+           placeholder="Ask about stock, orders, alterations...">
+    <button class="btn sm" id="aiSend">Ask</button>
+  </form>
+  <p class="ai-note">It suggests; you decide. It cannot change stock, orders or payments.</p>
+</aside>
+</div><!-- /#ad -->
+
+<script src="assets/js/vendor/lenis.min.js"></script>
+<script src="assets/js/vendor/three.min.js"></script>
+<script src="assets/js/motion.js"></script>
+<!-- Firebase, vendored rather than pulled off a CDN, the same as lenis and three.
+     If these three fail to load the app still runs: sync.js degrades to localStorage. -->
+<script src="assets/js/vendor/firebase-app-compat.js"></script>
+<script src="assets/js/vendor/firebase-app-check-compat.js"></script>
+<script src="assets/js/vendor/firebase-auth-compat.js"></script>
+<script src="assets/js/vendor/firebase-firestore-compat.js"></script>
+<script src="assets/js/firebase-config.js"></script>
+<!-- App Check attaches a token to every Firestore, Auth and AI Logic request, so it has
+     to be activated before any of them makes one. It also creates the Firebase app that
+     the three files below reuse. -->
+<script src="assets/js/appcheck.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/sync.js"></script>
+<script src="assets/js/auth.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/admin.js"></script>
+<!-- Firebase AI Logic is ESM-only (no compat build exists at any version, checked), so
+     this one file is a module. bundle.py strips it from the portable build. -->
+<script type="module" src="assets/js/ai.js"></script>
+<script src="assets/js/ai-ui.js"></script>
+<script>Motion.boot(); SHSync.start(); SHAuth.start();</script>
+</body>
+</html>
